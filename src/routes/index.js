@@ -6,10 +6,10 @@ const {
   createProduct,
   updateProduct,
   destroyProduct
-} = require('../controllers/ProductsControllers')
+} = require('../controllers/ProductsController')
 
 const { indexUsers, showUser, createUser, login, updateUser, destroyUser } =
-  require('../controllers/UsersControllers')
+  require('../controllers/UsersController')
 
 router.get('/api/users', indexUsers)
 router.get('/api/users/:id', showUser)
