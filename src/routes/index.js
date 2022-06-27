@@ -1,18 +1,15 @@
 const express = require('express')
 const router = express.Router()
-const { body, check, validationResult } = require('express-validator')
 const {
-  indexUsers,
-  showUser,
-  createUser,
-  updateUser,
-  destroyUser,
   indexProducts,
   showProduct,
   createProduct,
   updateProduct,
   destroyProduct
-} = require('../controllers/controller')
+} = require('../controllers/ProductsControllers')
+
+const { indexUsers, showUser, createUser, login, updateUser, destroyUser } =
+  require('../controllers/UsersControllers')
 
 router.get('/api/users', indexUsers)
 router.get('/api/users/:id', showUser)

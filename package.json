@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/app.js"
+    "start": "nodemon src"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +18,11 @@
     "sequelize": "^6.21.0"
   },
   "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.1.0",
     "nodemon": "^2.0.18",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "sucrase": "^3.21.1"
   }
 }
