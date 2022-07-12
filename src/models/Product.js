@@ -1,4 +1,4 @@
-const product = (sequelize, DataTypes) => {
+/*const product = (sequelize, DataTypes) => {
   const Product = sequelize.define(
     'Product',
     {
@@ -26,4 +26,4 @@ const product = (sequelize, DataTypes) => {
   return Product
 }
 
-module.exports = product
+module.exports = product*/

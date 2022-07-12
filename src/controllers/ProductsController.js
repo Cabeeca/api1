@@ -1,4 +1,4 @@
-const { product } = require('../models')
+/*const { product } = require('../models')
 
 const indexProducts = async (req, res) => {
   const products = await product.findAll({
@@ -39,4 +39,4 @@ module.exports = {
   createProduct,
   updateProduct,
   destroyProduct
-}
+}*/
